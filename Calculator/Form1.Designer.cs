@@ -61,6 +61,7 @@
             this.textExpresion.Location = new System.Drawing.Point(1, -1);
             this.textExpresion.Multiline = true;
             this.textExpresion.Name = "textExpresion";
+            this.textExpresion.ReadOnly = true;
             this.textExpresion.Size = new System.Drawing.Size(290, 46);
             this.textExpresion.TabIndex = 0;
             // 
@@ -69,81 +70,90 @@
             this.textResult.Location = new System.Drawing.Point(1, 51);
             this.textResult.Multiline = true;
             this.textResult.Name = "textResult";
+            this.textResult.ReadOnly = true;
             this.textResult.Size = new System.Drawing.Size(290, 46);
             this.textResult.TabIndex = 1;
             // 
             // buttonPercent
             // 
+            this.buttonPercent.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.buttonPercent.Location = new System.Drawing.Point(1, 103);
             this.buttonPercent.Name = "buttonPercent";
             this.buttonPercent.Size = new System.Drawing.Size(80, 47);
             this.buttonPercent.TabIndex = 2;
             this.buttonPercent.Text = "%\r\n";
-            this.buttonPercent.UseVisualStyleBackColor = true;
+            this.buttonPercent.UseVisualStyleBackColor = false;
             // 
             // buttonCE
             // 
+            this.buttonCE.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.buttonCE.Location = new System.Drawing.Point(73, 103);
             this.buttonCE.Name = "buttonCE";
             this.buttonCE.Size = new System.Drawing.Size(80, 47);
             this.buttonCE.TabIndex = 3;
             this.buttonCE.Text = "CE\r\n";
-            this.buttonCE.UseVisualStyleBackColor = true;
+            this.buttonCE.UseVisualStyleBackColor = false;
             this.buttonCE.Click += new System.EventHandler(this.buttonCE_Click);
             // 
             // buttonC
             // 
+            this.buttonC.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.buttonC.Location = new System.Drawing.Point(140, 103);
             this.buttonC.Name = "buttonC";
             this.buttonC.Size = new System.Drawing.Size(80, 47);
             this.buttonC.TabIndex = 4;
             this.buttonC.Text = "C";
-            this.buttonC.UseVisualStyleBackColor = true;
+            this.buttonC.UseVisualStyleBackColor = false;
             // 
             // buttonX
             // 
+            this.buttonX.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.buttonX.Location = new System.Drawing.Point(211, 103);
             this.buttonX.Name = "buttonX";
             this.buttonX.Size = new System.Drawing.Size(80, 47);
             this.buttonX.TabIndex = 5;
             this.buttonX.Text = "X";
-            this.buttonX.UseVisualStyleBackColor = true;
+            this.buttonX.UseVisualStyleBackColor = false;
             // 
             // buttonDivideX
             // 
+            this.buttonDivideX.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.buttonDivideX.Location = new System.Drawing.Point(1, 156);
             this.buttonDivideX.Name = "buttonDivideX";
             this.buttonDivideX.Size = new System.Drawing.Size(75, 47);
             this.buttonDivideX.TabIndex = 6;
             this.buttonDivideX.Text = "1/X";
-            this.buttonDivideX.UseVisualStyleBackColor = true;
+            this.buttonDivideX.UseVisualStyleBackColor = false;
             // 
             // buttonSqrt
             // 
+            this.buttonSqrt.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.buttonSqrt.Location = new System.Drawing.Point(73, 156);
             this.buttonSqrt.Name = "buttonSqrt";
             this.buttonSqrt.Size = new System.Drawing.Size(75, 47);
             this.buttonSqrt.TabIndex = 7;
             this.buttonSqrt.Text = "x^2";
-            this.buttonSqrt.UseVisualStyleBackColor = true;
+            this.buttonSqrt.UseVisualStyleBackColor = false;
             // 
             // button7
             // 
+            this.button7.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.button7.Location = new System.Drawing.Point(140, 156);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(75, 47);
             this.button7.TabIndex = 8;
             this.button7.Text = "sqrt(x)";
-            this.button7.UseVisualStyleBackColor = true;
+            this.button7.UseVisualStyleBackColor = false;
             // 
             // buttonDivide
             // 
+            this.buttonDivide.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.buttonDivide.Location = new System.Drawing.Point(211, 156);
             this.buttonDivide.Name = "buttonDivide";
             this.buttonDivide.Size = new System.Drawing.Size(75, 47);
             this.buttonDivide.TabIndex = 9;
             this.buttonDivide.Text = "/";
-            this.buttonDivide.UseVisualStyleBackColor = true;
+            this.buttonDivide.UseVisualStyleBackColor = false;
             // 
             // seven
             // 
@@ -174,12 +184,13 @@
             // 
             // multiplication
             // 
+            this.multiplication.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.multiplication.Location = new System.Drawing.Point(211, 209);
             this.multiplication.Name = "multiplication";
             this.multiplication.Size = new System.Drawing.Size(75, 47);
             this.multiplication.TabIndex = 13;
             this.multiplication.Text = "*";
-            this.multiplication.UseVisualStyleBackColor = true;
+            this.multiplication.UseVisualStyleBackColor = false;
             // 
             // four
             // 
@@ -210,12 +221,13 @@
             // 
             // minus
             // 
+            this.minus.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.minus.Location = new System.Drawing.Point(211, 262);
             this.minus.Name = "minus";
             this.minus.Size = new System.Drawing.Size(75, 47);
             this.minus.TabIndex = 17;
             this.minus.Text = "-";
-            this.minus.UseVisualStyleBackColor = true;
+            this.minus.UseVisualStyleBackColor = false;
             // 
             // one
             // 
@@ -246,12 +258,13 @@
             // 
             // plus
             // 
+            this.plus.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.plus.Location = new System.Drawing.Point(211, 315);
             this.plus.Name = "plus";
             this.plus.Size = new System.Drawing.Size(75, 47);
             this.plus.TabIndex = 21;
             this.plus.Text = "+";
-            this.plus.UseVisualStyleBackColor = true;
+            this.plus.UseVisualStyleBackColor = false;
             // 
             // plusMinus
             // 
@@ -282,18 +295,19 @@
             // 
             // equals
             // 
+            this.equals.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.equals.Location = new System.Drawing.Point(211, 368);
             this.equals.Name = "equals";
             this.equals.Size = new System.Drawing.Size(75, 47);
             this.equals.TabIndex = 25;
             this.equals.Text = "=";
-            this.equals.UseVisualStyleBackColor = true;
+            this.equals.UseVisualStyleBackColor = false;
             // 
             // Calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(287, 418);
+            this.ClientSize = new System.Drawing.Size(287, 423);
             this.Controls.Add(this.equals);
             this.Controls.Add(this.dot);
             this.Controls.Add(this.zero);
