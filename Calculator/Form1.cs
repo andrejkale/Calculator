@@ -62,7 +62,10 @@ namespace Calculator
                     if (!isCalculated) {
                         textExpresion.Text += "=";
                         textResult.Text = textResult.Text.Replace(',', '.');
-                        textResult.Text = textResult.Text.Replace('%', '/') + "100";
+                        if (textResult.Text.Contains("%"))
+                        {
+                            textResult.Text = textResult.Text.Replace('%', '/') + "100";
+                        }
                         textResult.Text = new DataTable().Compute(textResult.Text, null).ToString();
                         isCalculated = true;
                     }
